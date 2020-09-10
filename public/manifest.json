@@ -1,0 +1,37 @@
+{
+    "name": "Weatherly",
+    "short_name": "Weatherly",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/imgs/Icons/Icon_72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/imgs/Icons/Icon_96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/imgs/Icons/Icon_144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/imgs/Icons/Icon_192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/imgs/Icons/Icon_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+
+}

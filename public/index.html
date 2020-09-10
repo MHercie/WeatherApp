@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Michelle Hercules">
+    <meta name="description" content="Check The Weather Online">
+    <meta name="keywords" content="Weather, Weather App, Check Weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+        <label id="weather-header">-
+            <input type="text" autocomplete="off" class="search-box"
+            placeholder="Search for a city" />
+        </label>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp"></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+        </main>
+    </div>
+    <script  src="main.js"></script>
+    
+    
+</body>
+</html>
