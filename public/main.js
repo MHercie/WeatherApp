@@ -24,7 +24,7 @@ if('serviceWorker' in navigator){
 }
 
 const api = {
-    key: "34aefaefe3545f19237c63bfc5f84d81",   //Generated API key from Openweather website
+    key: "#######",   //Generated API key from Openweather website
     baseurl: "https://api.openweathermap.org/data/2.5/"
 }
 
